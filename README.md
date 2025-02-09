@@ -1,6 +1,7 @@
 # Desafio de Análise de Conversa com OpenAI 🚀
 
 Olá, pessoal! Tudo bem? :)
+
 Obrigada pela oportunidade de participar deste processo seletivo! Este projeto foi desenvolvido com o objetivo de demonstrar habilidades técnicas, criatividade na resolução de problemas e integração de tecnologias modernas como a OpenAI API e PostgreSQL.
 
 ## O que foi implementado de diferente? 💡
@@ -69,5 +70,6 @@ Certifique-se de ter instalado:
 Mais uma vez, agradeço pela oportunidade de participar do desafio! Espero passar para a próxima etapa.
 
 Atenciosamente,
+
 Isadora Estanislau
 
