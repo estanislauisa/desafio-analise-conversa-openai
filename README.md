@@ -1,15 +1,14 @@
-# Desafio de Análise de Conversa com OpenAI
+# Desafio de Análise de Conversa com OpenAI 🚀
 
-## Introdução
+Olá, pessoal! Tudo bem? :)
+Obrigada pela oportunidade de participar deste processo seletivo! Este projeto foi desenvolvido com o objetivo de demonstrar habilidades técnicas, criatividade na resolução de problemas e integração de tecnologias modernas como a OpenAI API e PostgreSQL.
 
-Olá, obrigado pela oportunidade de participar deste processo seletivo! Este projeto foi desenvolvido com o objetivo de demonstrar habilidades técnicas, criatividade na resolução de problemas e integração de tecnologias modernas como a OpenAI API e PostgreSQL.
+## O que foi implementado de diferente? 💡
 
-## O que foi implementado de diferente?
-
-Durante o desenvolvimento do projeto, realizamos algumas melhorias e customizações além do esperado:
+Durante o desenvolvimento do projeto, realizei algumas melhorias e customizações além do esperado:
 
 ### Novas colunas na tabela `analysis`
-Adicionamos as seguintes colunas para enriquecer a análise e armazenar informações detalhadas das interações:
+Adicionei as seguintes colunas para enriquecer a análise e armazenar informações detalhadas das interações:
 - `effort_score` (Pontuação de esforço)
 - `negative_points` (Pontos negativos destacados pela análise)
 - `positive_points` (Pontos positivos destacados pela análise)
@@ -19,12 +18,17 @@ Adicionamos as seguintes colunas para enriquecer a análise e armazenar informa�
 Essas alterações tornam a análise mais completa, fornecendo insights valiosos sobre as interações.
 
 ### Criação do Prompt para a OpenAI
+
 O prompt foi cuidadosamente elaborado para solicitar uma análise detalhada à API da OpenAI. Ele inclui:
+
 - **Tom da conversa:** Se a interação foi cordial, amigável, formal, etc.
+- **Resumo da interação:** Uma descrição geral do que ocorreu na conversa.
 - **Sugestões de melhoria:** Pontos de melhoria na interação.
-- **Pontos positivos e negativos:** Destaques do atendimento, tanto positivos quanto negativos.
+- **Pontos positivos:** Destaques positivos do atendimento.
+- **Pontos negativos:** Destaques negativos do atendimento.
 - **Status de resolução:** Informação se o problema foi resolvido ou não.
 - **Nível de satisfação:** Uma pontuação de 1 a 10 sobre a experiência do cliente.
+- **Esforço do cliente:** Uma pontuação para avaliar o esforço necessário do cliente durante a interação.
 
 Isso garante que a análise seja precisa, útil e bem estruturada.
 
@@ -44,7 +48,7 @@ Certifique-se de ter instalado:
    ```bash
    docker-compose up --build
 
-2. Acesse a aplicação em [http://localhost:8000](http://localhost:8000).
+2. Acesse a aplicação em [http://localhost:8000](http://localhost:8000)🌐.
 
 3. Para testar a API, utilize ferramentas como **Postman** ou **cURL**. Por exemplo:
 
@@ -56,15 +60,14 @@ Certifique-se de ter instalado:
      }
      ```
 
-   Os resultados da análise serão salvos no banco de dados PostgreSQL. Você pode visualizar os dados utilizando ferramentas como **pgAdmin** ou qualquer cliente SQL.
+   📊 Os resultados da análise serão salvos no banco de dados PostgreSQL. Você pode visualizar os dados utilizando ferramentas como **pgAdmin** ou qualquer cliente SQL.
 
 ---
 
-## Agradecimentos
+## Agradecimentos 🙏
 
-Agradeço pela oportunidade de participar deste processo seletivo! Foi um desafio empolgante desenvolver esta solução e integrar tecnologias modernas para análise de conversas.
+Mais uma vez, agradeço pela oportunidade de participar do desafio! Espero passar para a próxima etapa.
 
-Estou à disposição para discutir melhorias e compartilhar mais detalhes sobre o desenvolvimento deste projeto.
-
-Se tiver dúvidas ou sugestões, ficarei feliz em ouvir!
+Atenciosamente,
+Isadora Estanislau
 
