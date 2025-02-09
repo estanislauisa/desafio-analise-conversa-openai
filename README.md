@@ -2,7 +2,7 @@
 
 Olá, pessoal! Tudo bem? :)
 
-Obrigada pela oportunidade de participar deste processo seletivo! Este projeto foi desenvolvido com o objetivo de demonstrar habilidades técnicas, criatividade na resolução de problemas e integração de tecnologias modernas como a OpenAI API e PostgreSQL.
+Obrigada pela oportunidade de participar do desafio! Este projeto foi desenvolvido com o objetivo de demonstrar habilidades técnicas, criatividade na resolução de problemas e integração de tecnologias modernas como a OpenAI API e PostgreSQL.
 
 ## O que foi implementado de diferente? 💡
 
@@ -67,7 +67,7 @@ Certifique-se de ter instalado:
 
 ## Agradecimentos 🙏
 
-Mais uma vez, agradeço pela oportunidade de participar do desafio! Espero passar para a próxima etapa.
+Mais uma vez, agradeço pela oportunidade!
 
 Atenciosamente,
 
