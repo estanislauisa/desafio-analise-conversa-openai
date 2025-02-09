@@ -35,6 +35,11 @@ CREATE TABLE "analysis" (
     "summary" TEXT NOT NULL,
     "improvement" TEXT NOT NULL,
     "created_at" TIMESTAMP(0) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "effort_score" INTEGER, -- Novo campo
+    "negative_points" TEXT, -- Novo campo
+    "positive_points" TEXT, -- Novo campo
+    "resolution_status" TEXT, -- Novo campo
+    "tone" TEXT, -- Novo campo
 
     CONSTRAINT "analysis_pkey" PRIMARY KEY ("id")
 );

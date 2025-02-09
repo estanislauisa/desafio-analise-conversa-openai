@@ -41,6 +41,11 @@ model analysis {
   satisfaction Int
   summary      String
   improvement  String
+  tone              String?
+  positive_points   String?
+  negative_points   String?
+  effort_score      Int?
+  resolution_status String?
   created_at   DateTime @default(now()) @db.Timestamp(0)
 
   session session @relation(fields: [session_id], references: [id], onDelete: Cascade)

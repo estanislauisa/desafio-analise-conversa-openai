@@ -1,5 +1,4 @@
 services:
-
   db:
     container_name: teste_guia_db
     image: postgres
@@ -8,10 +7,29 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_DB: ${POSTGRES_DB}
     ports:
-      - 5432:5432
+      - "5432:5432"
     volumes:
       - postgres:/var/lib/postgresql/data
       - ./prisma/sql/:/docker-entrypoint-initdb.d/
+
+
+  app:
+    container_name: teste_guia_app
+    build:
+      context: .
+    environment:
+      DATABASE_URL: "postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}"
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: >
+      sh -c "
+      uvicorn app:app --host 0.0.0.0 --port 8000"
+    working_dir: /app
 
 volumes:
   postgres:
